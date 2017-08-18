@@ -24,7 +24,7 @@ metadata {
     }
 
     preferences {
-        input("InsteonIP", "string", title:"Insteon IP Address", description: "Please enter your Insteon Hub IP Address", defaultValue: "172.16.1.97", required: true, displayDuringSetup: true)
+        input("InsteonIP", "string", title:"Insteon IP Address", description: "Please enter your Insteon Hub IP Address", defaultValue: "47.148.38.54", required: true, displayDuringSetup: true)
         input("InsteonPort", "string", title:"Insteon Port", description: "Please enter your Insteon Hub Port", defaultValue: "25105", required: true, displayDuringSetup: true)
         input("InsteonHubUsername", "string", title:"Insteon Hub Username", description: "Please enter your Insteon Hub Username", defaultValue: "Francis5" , required: true, displayDuringSetup: true)
         input("InsteonHubPassword", "password", title:"Insteon Hub Password", description: "Please enter your Insteon Hub Password", defaultValue: "sA8PGcAF" , required: true, displayDuringSetup: true)
